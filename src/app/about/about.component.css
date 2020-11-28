@@ -1,0 +1,18 @@
+@media screen and (min-width: 574px)
+{
+   #head
+   {
+       font-size: 4vw;
+   }
+}
+
+@media screen and (max-width: 574px)
+{
+   #head
+   {
+       font-size: 10vw;
+   }
+}
+p{
+    color: #fff;
+}

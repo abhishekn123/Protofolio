@@ -1,0 +1,29 @@
+
+<div id="bignav">
+    <app-navbar></app-navbar>
+</div>
+<div id="smallNav" >
+    <app-small-navbar></app-small-navbar>
+</div>
+<div class="container-fluid" id="home" >
+<div class="row justify-content-center align-items-center mx-auto" style="flex-wrap: wrap-reverse;">
+<div class="col-sm-6 w-100 h-100"  >
+    <div id="desc">  <app-description></app-description></div>
+</div>
+<div class="col-sm-6"   >
+    <div class="text-center w-75 h-75 mx-auto " style="justify-self: center;align-items: center;">
+        <app-profile></app-profile>
+    </div>
+</div>
+</div>
+<div >
+    <app-about></app-about>
+</div>
+<div>
+    <app-projects></app-projects>
+</div>
+<app-footer></app-footer>
+</div>
+
+
+<router-outlet></router-outlet>

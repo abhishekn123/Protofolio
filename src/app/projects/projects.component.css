@@ -1,0 +1,45 @@
+div.scrollmenu {
+
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu .card {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    background-color:#232527;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu .card:hover {
+    background-color: #777;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  .title,.stack
+  {
+      color:"#fff"
+  }
+  .title:hover
+  {
+      text-decoration:none;
+  }
+  .stack:hover
+  {
+    text-decoration: none;
+  }
+ a:hover
+ {
+   text-decoration: none;
+ }

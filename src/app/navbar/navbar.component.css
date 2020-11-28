@@ -1,0 +1,30 @@
+.slash
+{
+  opacity: 0;
+}
+a
+{
+    color: whitesmoke;
+}
+.nav-item:hover .slash{
+    opacity: 1;
+   color: aquamarine;
+   transition: ease-in;
+   transition-delay: 200ms;
+}
+.nav-item:hover a
+{
+    color: aquamarine;
+}
+.lin
+{
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 574px)
+{
+  #maxnavbar
+  {
+      display: none;
+  }
+}

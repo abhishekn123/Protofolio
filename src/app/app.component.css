@@ -1,0 +1,31 @@
+@media screen and (max-width: 574px)
+{
+    #row
+    {
+    flex-direction: row-reverse
+    }
+    #bignav
+    {
+        display: none;
+    }
+    #smallNav
+    {
+        display: block;
+    }
+    #desc
+    {
+        margin-top: 10px;
+    }
+}
+@media screen and (min-width: 574px)
+{
+    #bignav
+    {
+        display: block;
+    }
+    #smallNav
+    {
+        display: none;
+    }
+  
+}
