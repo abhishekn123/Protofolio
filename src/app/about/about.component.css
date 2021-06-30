@@ -16,3 +16,20 @@
 p{
     color: #fff;
 }
+.img-responsive{
+    
+    display: block;
+    max-width: 100%;
+    height: auto;
+    width: 100px;
+}
+.skills-section .skill-icon {
+    /* padding-bottom: 15px; */
+    height: 120px;
+}
+img {
+    float: left;
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+}

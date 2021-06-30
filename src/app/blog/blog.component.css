@@ -9,7 +9,7 @@ div.scrollmenu {
     color: white;
     text-align: center;
     padding: 14px;
-    background-color: #233554;
+    background-color:#232527;
     text-decoration: none;
   }
   
@@ -17,7 +17,7 @@ div.scrollmenu {
     background-color: #777;
   }
   .card {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
     transition: 0.3s;
   }
   .card:hover {
@@ -43,3 +43,10 @@ div.scrollmenu {
  {
    text-decoration: none;
  }
+ img {
+  float: left;
+  width:  100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 0;
+}

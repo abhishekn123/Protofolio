@@ -12,6 +12,8 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
 import { ProjectsComponent } from './projects/projects.component';
 import { ClientsComponent } from './clients/clients.component';
 import { FooterComponent } from './footer/footer.component';
+import { BlogComponent } from './blog/blog.component';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   declarations: [
     AppComponent,
@@ -23,10 +25,12 @@ import { FooterComponent } from './footer/footer.component';
     ProjectsComponent,
     ClientsComponent,
     FooterComponent,
+    BlogComponent,
   ],
   imports: [
-  BrowserModule,
+BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     NgCircleProgressModule.forRoot({
       radius: 50,
       outerStrokeWidth: 16,
